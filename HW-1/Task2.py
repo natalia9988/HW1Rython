@@ -14,5 +14,5 @@ if num > min or num <= max:
     for i in range(2, int(num**0.5) + 1):
         if num % i == 0:
             print ('Число составное')
-        else:
+    else:
                 print ('Число простое')
